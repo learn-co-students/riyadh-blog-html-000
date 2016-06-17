@@ -6,11 +6,12 @@ html, body {
 }
 
 body {
-  background: url(../images/backgrounds/architecture.jpg) center no-repeat;
+  background: gray;
   background-size: cover;
   background-attachment: fixed;
-  font-family: Helvetica, Arial, sans-serif;
+  font-family: Georgia;
   font-size: 100%;
+  color: black
 }
 
 .wrapper {
@@ -26,23 +27,24 @@ body {
 
 h1, h2 {
   font-family: 'Gabriela', serif;
-  color: #fff;
+  color: black;
 }
 
 h1 {
-  font-size: 3.5em;
+  font-size: 3.25em;
   margin-bottom: 0;
 }
 
 h2 {
-  font-size: 1.5em;
+  font-size: 1.25em;
   margin-top: .5em;
 }
 
 h3 {
   font-family: 'Gabriela', serif;
-  font-size: 1.5em;
+  font-size: 1.25em;
   margin-top: .5em;
+  color: gray;
 }
 
 img {
@@ -61,7 +63,7 @@ a {
 }
 
 a:hover {
-  text-decoration: underline;
+  color: gray;
 }
 
 @media only screen and (max-width: 1042px) {
@@ -83,4 +85,8 @@ a:hover {
   .wrapper {
     width: 95%;
   }
+
+
+
+
 }
