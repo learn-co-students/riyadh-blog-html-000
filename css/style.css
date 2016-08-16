@@ -1,26 +1,27 @@
 @import url(http://fonts.googleapis.com/css?family=Gabriela);
 
 html, body {
-  height: 100%;
-  min-height: 100%;
+  height: 0%;
+  min-height: 0%;
 }
 
 body {
-  background: url(../images/backgrounds/architecture.jpg) center no-repeat;
+  background: url(../images/backgrounds/architecture.jpg) center repeat-y;
   background-size: cover;
-  background-attachment: fixed;
+  background-attachment: center;
   font-family: Helvetica, Arial, sans-serif;
   font-size: 100%;
+
 }
 
 .wrapper {
-  margin: 0 auto;
+  margin: 0px auto;
   width: 60%;
-  padding-bottom: 40px;
+  padding-bottom: 20px;
 }
 
 #content {
-  padding: 20px;
+  padding: 50px;
   background: rgba(255,255,255,.85);
 }
 
@@ -30,34 +31,35 @@ h1, h2 {
 }
 
 h1 {
-  font-size: 3.5em;
+  font-size: 1.5em;
   margin-bottom: 0;
 }
 
 h2 {
-  font-size: 1.5em;
+  font-size: .75em;
   margin-top: .5em;
 }
 
 h3 {
   font-family: 'Gabriela', serif;
-  font-size: 1.5em;
+  font-size: 1.0em;
   margin-top: .5em;
 }
 
 img {
-  max-width: 100%;
-  width: 100%;
+  max-width: 60%;
+  width: 90%;
   height: auto;
 }
 
 p {
-  font-size: 1em;
+  font-size: .6em;
 }
 
 a {
   color: black;
   text-decoration: none;
+  font-size: .7em;
 }
 
 a:hover {
@@ -75,10 +77,10 @@ a:hover {
     font-size: 120%;
   }
   h1 {
-    font-size: 2.5em;
+    font-size: 2.0em;
   }
   h2 {
-    font-size: 1em;
+    font-size: 1.5em;
   }
   .wrapper {
     width: 95%;
