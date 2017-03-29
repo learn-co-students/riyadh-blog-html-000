@@ -1,4 +1,4 @@
-@import url(http://fonts.googleapis.com/css?family=Gabriela);
+@import url(https://fonts.googleapis.com/css?family=Macondo);
 
 html, body {
   height: 100%;
@@ -6,7 +6,7 @@ html, body {
 }
 
 body {
-  background: url(../images/backgrounds/architecture.jpg) center no-repeat;
+  background: #262626;
   background-size: cover;
   background-attachment: fixed;
   font-family: Helvetica, Arial, sans-serif;
@@ -21,26 +21,30 @@ body {
 
 #content {
   padding: 20px;
-  background: rgba(255,255,255,.85);
+  background: #e1d3aa;
+  background:         linear-gradient(#ece6b4, #5c5838);
 }
 
 h1, h2 {
-  font-family: 'Gabriela', serif;
-  color: #fff;
+  font-family: 'Macondo', cursive;
+  text-align: center;
 }
 
 h1 {
-  font-size: 3.5em;
+  font-size: 4em;
+  color: #00aeff;
   margin-bottom: 0;
 }
 
 h2 {
   font-size: 1.5em;
+  color: #ffffff;
   margin-top: .5em;
 }
 
 h3 {
-  font-family: 'Gabriela', serif;
+  font-family: 'Macondo', serif;
+  color: #ff7200;
   font-size: 1.5em;
   margin-top: .5em;
 }
@@ -56,7 +60,7 @@ p {
 }
 
 a {
-  color: black;
+  color: white;
   text-decoration: none;
 }
 
