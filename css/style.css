@@ -1,4 +1,4 @@
-@import url(http://fonts.googleapis.com/css?family=Gabriela);
+@import url(https://fonts.googleapis.com/css?family=Vast+Shadow);
 
 html, body {
   height: 100%;
@@ -6,10 +6,11 @@ html, body {
 }
 
 body {
-  background: url(../images/backgrounds/architecture.jpg) center no-repeat;
+  background:linear-gradient(rgba(0, 0, 0, 0.55), rgba(0, 0, 0, 0.55)),
+                rgba(0,0,0,0.55) url(../images/backgrounds/architecture.jpg) center no-repeat;
   background-size: cover;
   background-attachment: fixed;
-  font-family: Helvetica, Arial, sans-serif;
+  font-family: 'Vast Shadow', 'cursive';
   font-size: 100%;
 }
 
@@ -25,12 +26,12 @@ body {
 }
 
 h1, h2 {
-  font-family: 'Gabriela', serif;
-  color: #fff;
+  font-family: 'Vast Shadow', 'cursive';
+  color: #00e600;
 }
 
 h1 {
-  font-size: 3.5em;
+  font-size: 4.0em;
   margin-bottom: 0;
 }
 
@@ -40,9 +41,11 @@ h2 {
 }
 
 h3 {
-  font-family: 'Gabriela', serif;
+  font-family: 'Vast Shadow', 'cursive';
   font-size: 1.5em;
   margin-top: .5em;
+  color: #009900;
+
 }
 
 img {
@@ -52,12 +55,14 @@ img {
 }
 
 p {
-  font-size: 1em;
+  font-size: 1.5em;
+  color: #003d99;
 }
 
 a {
   color: black;
   text-decoration: none;
+  color: #003d99;
 }
 
 a:hover {
@@ -78,7 +83,7 @@ a:hover {
     font-size: 2.5em;
   }
   h2 {
-    font-size: 1em;
+    font-size: 1.5em;
   }
   .wrapper {
     width: 95%;
