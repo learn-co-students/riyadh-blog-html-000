@@ -6,7 +6,8 @@ html, body {
 }
 
 body {
-  background: url(../images/backgrounds/architecture.jpg) center no-repeat;
+  /*background: url(../images/backgrounds/architecture.jpg) center no-repeat;*/
+  background-color: purple;
   background-size: cover;
   background-attachment: fixed;
   font-family: Helvetica, Arial, sans-serif;
@@ -26,11 +27,11 @@ body {
 
 h1, h2 {
   font-family: 'Gabriela', serif;
-  color: #fff;
+  color: #000;
 }
 
 h1 {
-  font-size: 3.5em;
+  font-size: 3.7em;
   margin-bottom: 0;
 }
 
