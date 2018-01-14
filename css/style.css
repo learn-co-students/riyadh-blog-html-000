@@ -6,7 +6,7 @@ html, body {
 }
 
 body {
-  background: url(../images/backgrounds/architecture.jpg) center no-repeat;
+  background: linear-gradient(to bottom right,#B56357, #EAE3EA);
   background-size: cover;
   background-attachment: fixed;
   font-family: Helvetica, Arial, sans-serif;
@@ -26,18 +26,18 @@ body {
   opacity: .98;
 }
 
-h1, h2 {
-  font-family: 'Open Sans', sans-serif;
-  color: #fff;
-}
-
 h1 {
+  font-family: 'Luminari', sans-serif;
+  color: #fff;
   font-size: 3.5em;
   margin-bottom: 0;
 }
 
 h2 {
-  font-size: 2em;
+  font-family: 'Open Sans', sans-serif;
+  color: #fff;
+  font-weight: lighter;
+  font-size: 1.5em;
   margin-top: .5em;
 }
 
