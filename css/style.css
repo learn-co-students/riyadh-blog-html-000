@@ -11,6 +11,7 @@ body {
   background-attachment: fixed;
   font-family: Helvetica, Arial, sans-serif;
   font-size: 100%;
+  color: #5b5553;
 }
 
 .wrapper {
@@ -21,11 +22,12 @@ body {
 
 #content {
   padding: 20px;
-  background: rgba(255,255,255,.85);
+  background: #EAE3EA;
+  opacity: .98;
 }
 
 h1, h2 {
-  font-family: 'Gabriela', serif;
+  font-family: 'Open Sans', sans-serif;
   color: #fff;
 }
 
@@ -35,13 +37,14 @@ h1 {
 }
 
 h2 {
-  font-size: 1.5em;
+  font-size: 2em;
   margin-top: .5em;
 }
 
 h3 {
-  font-family: 'Gabriela', serif;
+  font-family: 'Open Sans', Sans-serif;
   font-size: 1.5em;
+  color: #B56357;
   margin-top: .5em;
 }
 
@@ -56,11 +59,12 @@ p {
 }
 
 a {
-  color: black;
+  color: #5b5553;
   text-decoration: none;
 }
 
 a:hover {
+  color: #B56357;
   text-decoration: underline;
 }
 
