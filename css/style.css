@@ -6,11 +6,12 @@ html, body {
 }
 
 body {
-  background: url(../images/backgrounds/architecture.jpg) center no-repeat;
+  background: linear-gradient(to bottom right,#B56357, #EAE3EA);
   background-size: cover;
   background-attachment: fixed;
   font-family: Helvetica, Arial, sans-serif;
   font-size: 100%;
+  color: #5b5553;
 }
 
 .wrapper {
@@ -21,27 +22,29 @@ body {
 
 #content {
   padding: 20px;
-  background: rgba(255,255,255,.85);
-}
-
-h1, h2 {
-  font-family: 'Gabriela', serif;
-  color: #fff;
+  background: #EAE3EA;
+  opacity: .98;
 }
 
 h1 {
+  font-family: 'Luminari', sans-serif;
+  color: #fff;
   font-size: 3.5em;
   margin-bottom: 0;
 }
 
 h2 {
+  font-family: 'Open Sans', sans-serif;
+  color: #fff;
+  font-weight: lighter;
   font-size: 1.5em;
   margin-top: .5em;
 }
 
 h3 {
-  font-family: 'Gabriela', serif;
+  font-family: 'Open Sans', Sans-serif;
   font-size: 1.5em;
+  color: #B56357;
   margin-top: .5em;
 }
 
@@ -56,11 +59,12 @@ p {
 }
 
 a {
-  color: black;
+  color: #5b5553;
   text-decoration: none;
 }
 
 a:hover {
+  color: #B56357;
   text-decoration: underline;
 }
 
